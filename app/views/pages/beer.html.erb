@@ -1,11 +1,13 @@
 <h1>Bottles of Beer on the Wall</h1>
 <p></p>
 <% 99.downto(3) do |i| %>
-<p><%= i %> bottles of beer on the wall, <%= i %> bottles of beer.</p>
-<p>Take one down, pass it around, <%= i - 1 %> bottles of beer on the wall.</p>
-<p>2 bottles of beer on the wall, 2 bottles of beer.</p>
-<p>Take one down, pass it around, 1 bottle of beer on the wall.</p>
-<p>1 bottle of beer on the wall, 1 bottle of beer.</p>
-<p>Take one down, pass it around,</p>
-<p>Go to the store and buy some more, 99 bottles of beer on the wall.</p>
+<p><%= i %> bottles of beer on the wall, <%= i %> bottles of beer, take one down, pass it around, <%= i - 1 %> bottles of beer on the wall.</p>
 <% end %>
+<p>2 bottles of beer on the wall, 2 bottles of beer, take one down, pass it around, 1 bottle of beer on the wall.</p>
+<p>1 bottle of beer on the wall, 1 bottle of beer, take one down, pass it around, 0 bottles of beer on the wall.</p>
+<p>0 bottles of beer on the wall, 0 bottles of beer, go to the store and buy some more, 99 bottles of beer on the wall.</p>
+<a href='./'>Home</a>
+<p></p>
+<a href='./fortune'>Fortune</a>
+<p></p>
+<a href='./lottery'>Lottery</a>
